@@ -1,6 +1,6 @@
 # .NET CLIを使ってPDFビューワ画面をスクラッチで作成する
 
-https://www.grapecity.com/documents-api-pdf/docs/online/view-pdf.html に記載の方法を試してみる
+https://docs.grapecity.com/help/diodocs/pdf/#view-pdf.html に記載の方法をCLIで試してみる。
 
 ## 事前準備
 以下をインストールしておきます。
@@ -32,7 +32,7 @@ https://www.grapecity.com/documents-api-pdf/docs/online/view-pdf.html に記載�
 
 1. `wwwroot`配下に`index.html`ファイルを新規作成
     > cd ..
-    
+
     > new-item index.html
 
 1. `index.html`を開いて以下のコードをペースト
