@@ -18,18 +18,21 @@ https://www.grapecity.com/documents-api-pdf/docs/online/view-pdf.html に記載�
     >dotnet run
 
 1. プロジェクトのルートフォルダに`wwwroot`という名前の新規フォルダを作成し移動する
-    >mkdir wwwroot
+    >mkdir wwwroota
+
     >cd wwwroot
 
 1. `lib`という名前の新規フォルダを作成し移動する 
     >mkdir lib
-    > cd lib
+
+    >cd lib
 
 1. `npm`から`PDFビューワ`をインストール
     > npm install @grapecity/gcpdfviewer
 
 1. `wwwroot`配下に`index.html`ファイルを新規作成
     > cd ..
+    
     > new-item index.html
 
 1. `index.html`を開いて以下のコードをペースト
