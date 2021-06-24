@@ -94,12 +94,13 @@ namespace DioDocsExcelReport2
             var workbook = new Workbook();
 
             // テンプレートを読み込む
-            workbook.Open("Templates/SimpleInvoiceJP_可変明細_単一シート.xlsx");
+            // workbook.Open("Templates/SimpleInvoiceJP_可変明細_単一シート.xlsx");
             // workbook.Open("Templates/SimpleInvoiceJP_可変明細_複数シート.xlsx");
             // workbook.Open("Templates/SimpleInvoiceJP_可変明細_複数シート_数式維持.xlsx");
             // workbook.Open("Templates/SimpleInvoiceJP_固定明細_単一シート.xlsx");
-            // workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート.xlsx");
+            workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート.xlsx");
             // workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート_数式維持.xlsx");
+            // workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート_数式維持_備考フォーム追加.xlsx");
 
             // データソースを追加
             workbook.AddDataSource("ds", data);

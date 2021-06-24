@@ -28,7 +28,7 @@
     <None Update="Templates\SimpleInvoiceJP_固定明細_複数シート_数式維持.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="Templates\testdata.json">
+    <None Update="Templates\SimpleInvoiceJP_固定明細_複数シート_数式維持_備考フォーム追加.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Templates\testdata_multicustomer.json">
