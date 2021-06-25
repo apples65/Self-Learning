@@ -42,10 +42,10 @@ namespace DioDocsExcelReport2
                         tel = "022-987-2220",
                         detail = new Detail[]
                         {
-                            new Detail{ sku = "01-105", name = "モッツァレッラチーズとトマトのサラダ", price = 1200, unit = 70, remark = "前菜" },
-                            new Detail{ sku = "02-107", name = "娼婦風スパゲティー", price = 2500, unit = 100, remark = "パスタ" },
-                            new Detail{ sku = "03-120", name = "小羊背肉のリンゴソースかけ", price = 5000, unit = 130, remark = "メイン" },
-                            new Detail{ sku = "04-101", name = "ごま蜜団子", price = 800, unit = 60, remark = "デザート" }
+                            new Detail{ sku = "0105231", name = "モッツァレッラチーズとトマトのサラダ", price = 1200, unit = 70, remark = "前菜" },
+                            new Detail{ sku = "0201071", name = "娼婦風スパゲティー", price = 2500, unit = 100, remark = "パスタ" },
+                            new Detail{ sku = "0301201", name = "小羊背肉のリンゴソースかけ", price = 5000, unit = 130, remark = "メイン" },
+                            new Detail{ sku = "0401011", name = "ごま蜜団子", price = 800, unit = 60, remark = "デザート" }
                         }
                     },
                     new Customer
@@ -58,11 +58,11 @@ namespace DioDocsExcelReport2
                         tel = "022-876-1119",
                         detail = new Detail[]
                         {
-                            new Detail{ sku = "02-206", name = "激辛麻婆焼きそば", price = 1000, unit = 50, remark = "麺" },
-                            new Detail{ sku = "03-208", name = "塩竈マグロ", price = 2300, unit = 80, remark = "魚" },
-                            new Detail{ sku = "04-230", name = "超極厚牛タン", price = 4800, unit = 110, remark = "肉" },
-                            new Detail{ sku = "05-202", name = "濃厚ずんだロール", price = 800, unit = 60, remark = "デザート" },
-                            new Detail{ sku = "06-227", name = "ハチミツパンケーキ", price = 1300, unit = 60, remark = "お持ち帰り" }
+                            new Detail{ sku = "0202061", name = "激辛麻婆焼きそば", price = 1000, unit = 50, remark = "麺" },
+                            new Detail{ sku = "0302081", name = "塩竈マグロ", price = 2300, unit = 80, remark = "魚" },
+                            new Detail{ sku = "0402301", name = "超極厚牛タン", price = 4800, unit = 110, remark = "肉" },
+                            new Detail{ sku = "0502021", name = "濃厚ずんだロール", price = 800, unit = 60, remark = "デザート" },
+                            new Detail{ sku = "0602271", name = "ハチミツパンケーキ", price = 1300, unit = 60, remark = "お持ち帰り" }
                         }
                     },
                     new Customer
@@ -75,12 +75,12 @@ namespace DioDocsExcelReport2
                         tel = "022-765-0008",
                         detail = new Detail[]
                         {
-                            new Detail{ sku = "03-307", name = "マスクメロン", price = 1100, unit = 60, remark = "フルーツ" },
-                            new Detail{ sku = "04-309", name = "シャインマスカット", price = 2400, unit = 90, remark = "フルーツ" },
-                            new Detail{ sku = "05-340", name = "ピオーネ", price = 4900, unit = 120, remark = "フルーツ" },
-                            new Detail{ sku = "06-303", name = "ラ・フランス", price = 700, unit = 50, remark = "フルーツ" },
-                            new Detail{ sku = "07-338", name = "富有柿", price = 1400, unit = 70, remark = "フルーツ" },
-                            new Detail{ sku = "05-116", name = "サンジェルマンのサンドイッチバッグ", price = 1500, unit = 80, remark = "お持ち帰り" }
+                            new Detail{ sku = "0303071", name = "マスクメロン", price = 1100, unit = 60, remark = "フルーツ" },
+                            new Detail{ sku = "0403091", name = "シャインマスカット", price = 2400, unit = 90, remark = "フルーツ" },
+                            new Detail{ sku = "0503401", name = "ピオーネ", price = 4900, unit = 120, remark = "フルーツ" },
+                            new Detail{ sku = "0603031", name = "ラ・フランス", price = 700, unit = 50, remark = "フルーツ" },
+                            new Detail{ sku = "0703381", name = "富有柿", price = 1400, unit = 70, remark = "フルーツ" },
+                            new Detail{ sku = "0501161", name = "サンジェルマンのサンドイッチバッグ", price = 1500, unit = 80, remark = "お持ち帰り" }
                         }
                     }
                 }
@@ -98,9 +98,9 @@ namespace DioDocsExcelReport2
             // workbook.Open("Templates/SimpleInvoiceJP_可変明細_複数シート.xlsx");
             // workbook.Open("Templates/SimpleInvoiceJP_可変明細_複数シート_数式維持.xlsx");
             // workbook.Open("Templates/SimpleInvoiceJP_固定明細_単一シート.xlsx");
-            workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート.xlsx");
+            // workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート.xlsx");
             // workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート_数式維持.xlsx");
-            // workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート_数式維持_備考フォーム追加.xlsx");
+            workbook.Open("Templates/SimpleInvoiceJP_固定明細_複数シート_数式維持_備考フォーム追加.xlsx");
 
             // データソースを追加
             workbook.AddDataSource("ds", data);
