@@ -6,10 +6,7 @@ RUN apk add --no-cache curl fontconfig &&\
     mkdir -p /usr/share/fonts/IPAfont && \
     mkdir -p /temp && \
     unzip IPAfont00303.zip -d /temp && \
-    cp /temp/IPAfont00303/ipag.ttf /usr/share/fonts/IPAfont/ && \
-    cp /temp/IPAfont00303/ipagp.ttf /usr/share/fonts/IPAfont/ && \
-    cp /temp/IPAfont00303/ipam.ttf /usr/share/fonts/IPAfont/ && \
-    cp /temp/IPAfont00303/ipamp.ttf /usr/share/fonts/IPAfont/ && \
+    cp /temp/IPAfont00303/*.ttf /usr/share/fonts/IPAfont/ && \
     rm IPAfont00303.zip
 RUN rm -rf /temp && \
     fc-cache -fv 
