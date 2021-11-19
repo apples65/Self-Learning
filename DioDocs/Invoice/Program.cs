@@ -77,10 +77,10 @@ var data = new Data
 var workbook = new Workbook();
 
 // テンプレートを読み込む
-// workbook.Open("Templates/請求書テンプレート.xlsx");
+workbook.Open("Templates/請求書テンプレート.xlsx");
 // workbook.Open("Templates/請求書テンプレート（可変明細）.xlsx");
 // workbook.Open("Templates/請求書テンプレート（単一シート）.xlsx");
-workbook.Open("Templates/請求書テンプレート（備考欄とバーコード）.xlsx");
+// workbook.Open("Templates/請求書テンプレート（備考欄とバーコード）.xlsx");
 
 // データソースを追加
 workbook.AddDataSource("ds", data);

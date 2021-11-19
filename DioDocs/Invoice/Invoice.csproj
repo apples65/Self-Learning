@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- <PackageReference Include="GrapeCity.DioDocs.Excel.ja" Version="4.2.1" /> ★バグで動かないので一時的にEN版を参照★-->
-    <PackageReference Include="GrapeCity.Documents.Excel" Version="4.2.5" />
+    <PackageReference Include="GrapeCity.DioDocs.Excel.ja" Version="4.2.5" />
   </ItemGroup>
 
 </Project>
